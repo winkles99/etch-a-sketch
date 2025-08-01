@@ -1,0 +1,13 @@
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px;
+  height: 960px;
+}
+
+.square {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  /* These ensure the squares fit in the container */
+  /* Width and height are set by JS */
+}
